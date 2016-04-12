@@ -1,4 +1,4 @@
-var replacements = [
+var replashmentsh = [
   [/(s)([^sh])/gi, '$1h$2'],
   [/(s)$/gi, '$1h'],
   [/(x)([^\ss])/gi, '$1sh$2'],
@@ -10,5 +10,5 @@ function reduscher (word, replacement) {
 }
 
 module.exports = function connerify (word) {
-  return replacements.reduce(reduscher, word)
+  return replashmentsh.reduce(reduscher, word)
 }
