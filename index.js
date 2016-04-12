@@ -5,8 +5,8 @@ var replashmentsh = [
   [/ce/gi, 'sh']
 ]
 
-function reduscher (word, replacement) {
-  return String.prototype.replace.apply(word, replacement)
+function reduscher (word, replashment) {
+  return String.prototype.replace.apply(word, replashment)
 }
 
 module.exports = function connerify (word) {
